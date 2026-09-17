@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- الخلفيات -->
+    <color name="background_dark">#0D0D0D</color>
+    <color name="card_dark">#1A1A1A</color>
+    <color name="card_dark_light">#252525</color>
+    
+    <!-- النصوص -->
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#8B8B8B</color>
+    <color name="text_accent">#8B5CF6</color>
+    
+    <!-- الألوان المميزة (بنفسجي) -->
+    <color name="purple_primary">#8B5CF6</color>
+    <color name="purple_light">#A78BFA</color>
+    <color name="purple_dark">#6D28D9</color>
+    
+    <!-- الألوان التحذيرية -->
+    <color name="red_warning">#EF4444</color>
+    <color name="green_success">#10B981</color>
+    <color name="yellow_warning">#F59E0B</color>
+    
+    <!-- الحدود -->
+    <color name="border_purple">#8B5CF6</color>
+    <color name="border_gray">#2D2D2D</color>
+</resources>
