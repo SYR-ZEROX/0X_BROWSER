@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">0X BROWSER</string>
+    
+    <!-- Main Screen -->
+    <string name="active_profile">البروفايل النشط</string>
+    <string name="proxy_label">البروكسي</string>
+    <string name="location_label">الموقع</string>
+    <string name="locale_label">اللغة</string>
+    <string name="start_browsing">🚀 بدء التصفح</string>
+    <string name="manage_profiles">📋 إدارة البروفايلات</string>
+    <string name="settings">⚙️ الإعدادات</string>
+    
+    <!-- Browser -->
+    <string name="url_hint">ابحث أو أدخل رابط...</string>
+    <string name="go">اذهب</string>
+    <string name="back">رجوع</string>
+    <string name="forward">تقدم</string>
+    <string name="refresh">تحديث</string>
+    
+    <!-- Profiles -->
+    <string name="profiles_title">إدارة البروفايلات</string>
+    <string name="add_profile">➕ إضافة بروفايل جديد</string>
+    <string name="run">تشغيل</string>
+    <string name="edit">تعديل</string>
+    <string name="delete">حذف</string>
+    
+    <!-- Settings -->
+    <string name="settings_title">الإعدادات</string>
+    <string name="proxy_section">🌐 البروكسي</string>
+    <string name="location_section">📍 الموقع</string>
+    <string name="locale_section">🌍 اللغة</string>
+    <string name="fingerprint_section">🎭 البصمة</string>
+    <string name="privacy_section">🛡️ الخصوصية</string>
+    <string name="advanced_section">⚙️ متقدم</string>
+    <string name="management_section">📋 الإدارة</string>
+    <string name="save">💾 حفظ</string>
+    <string name="cancel">❌ إلغاء</string>
+    <string name="check_proxy">📡 فحص البروكسي</string>
+    <string name="auto_fetch">🔄 إعادة الجلب التلقائي</string>
+    
+    <!-- Proxy Check -->
+    <string name="proxy_checking">📡 جاري فحص البروكسي...</string>
+    <string name="proxy_works">✅ البروكسي يعمل</string>
+    <string name="proxy_failed">❌ البروكسي لا يعمل</string>
+    <string name="country">الدولة</string>
+    <string name="city">المدينة</string>
+    <string name="timezone">المنطقة الزمنية</string>
+    <string name="coordinates">الإحداثيات</string>
+    <string name="isp">ISP</string>
+    
+    <!-- Modes -->
+    <string name="mode_auto">تلقائي (من البروكسي)</string>
+    <string name="mode_manual">يدوي</string>
+    <string name="mode_hybrid">مختلط</string>
+</resources>
