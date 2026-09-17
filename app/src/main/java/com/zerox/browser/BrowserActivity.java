@@ -123,14 +123,6 @@ public class BrowserActivity extends AppCompatActivity {
             }
         });
 
-        // ===== تحديث URL Bar =====
-        geckoSession.setNavigationDelegate(new GeckoSession.NavigationDelegate() {
-            @Override
-            public void onLocationChange(GeckoSession session, String url) {
-                urlInput.setText(url);
-            }
-        });
-    }
 
     // ===== تحويل البروكسي للصيغة الصحيحة =====
     private String normalizeProxy(String proxy) {
