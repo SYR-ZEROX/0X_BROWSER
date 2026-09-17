@@ -122,31 +122,23 @@ public class BrowserActivity extends AppCompatActivity {
                 geckoSession.loadUri(url);
             }
         });
-
+    } // ✅ هذا القوس كان ناقص
 
     // ===== تحويل البروكسي للصيغة الصحيحة =====
     private String normalizeProxy(String proxy) {
-        // الصيغة المدخلة: socks5://user:pass@ip:port
-        // أو: ip:port:user:pass
-        // أو: ip:port
-
-        // إذا كانت الصيغة كاملة
         if (proxy.startsWith("socks5://") || proxy.startsWith("socks://")) {
             return proxy;
         }
 
-        // إذا كانت ip:port:user:pass
         if (proxy.split(":").length == 4) {
             String[] parts = proxy.split(":");
             return "socks5://" + parts[2] + ":" + parts[3] + "@" + parts[0] + ":" + parts[1];
         }
 
-        // إذا كانت ip:port
         if (proxy.split(":").length == 2) {
             return "socks5://" + proxy;
         }
 
-        // افتراضي
         return "socks5://" + proxy;
     }
 
