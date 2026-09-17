@@ -26,10 +26,10 @@ jobs:
         uses: gradle/actions/setup-gradle@v3
 
       - name: Build APK
-        run: gradle assembleRelease
+        run: gradle assembleDebug
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
-          name: 0X-Browser-Release
-          path: app/build/outputs/apk/release/*.apk
+        name: 0X-Browser-Debug
+        path: app/build/outputs/apk/debug/*.apk
