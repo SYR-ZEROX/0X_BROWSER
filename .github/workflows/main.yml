@@ -5,12 +5,8 @@ on:
     branches: [ main ]
   workflow_dispatch:
 
-permissions:
-  contents: write
-
 jobs:
   build:
-    name: "Build"
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -19,7 +15,7 @@ jobs:
       - name: Setup Java
         uses: actions/setup-java@v4
         with:
-          distribution: 'temurin'
+          distribution: temurin
           java-version: '17'
 
       - name: Setup Gradle
@@ -31,5 +27,5 @@ jobs:
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
-        name: 0X-Browser-Debug
-        path: app/build/outputs/apk/debug/*.apk
+          name: 0X-Browser-Debug
+          path: app/build/outputs/apk/debug/*.apk
