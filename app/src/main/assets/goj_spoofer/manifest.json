@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "0X Spoofer",
+  "version": "1.0",
+  "description": "Fingerprint spoofing for 0X Browser",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "0x@browser.com"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_start",
+      "all_frames": true
+    }
+  ],
+  "permissions": [
+    "nativeMessaging"
+  ]
+}
